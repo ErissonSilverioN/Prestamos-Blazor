@@ -13,7 +13,7 @@ namespace Prestamos_Blazor.DAL
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite(@"Data Source = PrestamosDB.db");
+            optionsBuilder.UseSqlite(@"Data Source = C:\Users\PANDA\source\repos\Prestamos_Blazor\DataBase\Prestamos_DB.db");
             base.OnConfiguring(optionsBuilder);
         }
     }
